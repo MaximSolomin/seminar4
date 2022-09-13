@@ -6,7 +6,7 @@ int step = a;
 
 for (int i = 1; i < b; i++)
 {
-step = step * a;
+    step = step * a;
 }
 
 Console.WriteLine("A в степени B равняется : " + step);
